@@ -1,0 +1,22 @@
+body{
+    font-family: "Times New Roman", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.bg {
+    background: url('https://shogi-pineapple.com/wp-content/uploads/2021/10/Kyojuro-Rengokus-powers-in-Demon-Slayer-explained.jpeg')
+    no-repeat center ;
+    position: absolute;
+    width: calc(80vw + 60px);
+    height: calc(80vh + 60px);
+    z-index: -1;
+    filter: blur(30px);
+  }
+.loading-text{
+    font-size: 50px;
+    color: ivory;
+}
